@@ -1,0 +1,79 @@
+{
+  "schema": "agko-fga-complete-cumulative-build-v1",
+  "recorded_at": "2026-09-08T15:44:07+02:00",
+  "result": "PASS_SINGLE_CUMULATIVE_CONVERGENCE_BUILD",
+  "scope": "Complete Korean FGA cumulative reader containing all seventeen canonical components.",
+  "admission": {
+    "path": "controls/FGA_COMPLETE_SINGLE_AGGREGATE_ADMISSION_20260908.json",
+    "bytes": 3973,
+    "sha256": "15A9C9CEBF9FDF29D2AB03410F56173F76841FC4B7866FD8C9371F76B2AAE74D"
+  },
+  "manifest": {
+    "path": "fga/FGA_COMPLETE_INPUTS.json",
+    "bytes": 26887,
+    "sha256": "DEB6484F009D09919FE4C4865D21BB4E4FEA17E4FC10C984A027852238366FF5"
+  },
+  "builder": {
+    "path": "scripts/build_fga_complete_once_20260908.ps1",
+    "mutex": "Global\\InterlanguageTeXSlotV1",
+    "mutex_timeout_ms": 300000,
+    "abandoned_mutex_recovered": false,
+    "xelatex": "<user-home>/AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\xelatex.exe",
+    "cycle": "one four-pass convergence build"
+  },
+  "outputs": {
+    "pass3": {
+      "path": "build/fga-complete-20260908-retry1/out/main.pass3.pdf",
+      "bytes": 939534,
+      "sha256": "03EB81261C062293E6F9A6315E58F3AFE215BFE8CF23629DE42DC427E8DAD6D4"
+    },
+    "pass4": {
+      "path": "build/fga-complete-20260908-retry1/out/main.pass4.pdf",
+      "bytes": 939534,
+      "sha256": "03EB81261C062293E6F9A6315E58F3AFE215BFE8CF23629DE42DC427E8DAD6D4"
+    },
+    "promoted_reader": {
+      "path": "output/pdf/00_FGA_ko_CUMULATIVE_READER.pdf",
+      "bytes": 939534,
+      "sha256": "03EB81261C062293E6F9A6315E58F3AFE215BFE8CF23629DE42DC427E8DAD6D4"
+    },
+    "log": {
+      "path": "build/fga-complete-20260908-retry1/out/main.log",
+      "bytes": 77354,
+      "sha256": "B45A24332F62C0B707EE7CB45EDEFD3D064A854F8AC27B699F94F1BEC04256CD"
+    }
+  },
+  "convergence": {
+    "pass3_pass4_byte_identical": true
+  },
+  "terminal_build_gates": {
+    "fatal_errors": 0,
+    "undefined_control_sequences": 0,
+    "undefined_references": 0,
+    "missing_characters": 0,
+    "overfull_hbox": 19,
+    "underfull_hbox": 0,
+    "overfull_vbox": 1,
+    "underfull_vbox": 1
+  },
+  "layout_warning_disposition": {
+    "warning_count": 21,
+    "toc_hboxes": "18 occurrences at 0.94206pt; visually non-clipping in the sole whole-reader pass.",
+    "body_hbox": "One 11.00912pt occurrence near physical page 53; directly inspected in the same pass and visibly readable without clipping or overlap.",
+    "vertical_boxes": "One underfull vbox and one 1.28395pt overfull vbox; page 98 vicinity directly inspected in the same pass and visibly complete without clipping or overlap.",
+    "action": "Accepted without a rebuild because the sole whole-reader visual pass found no visible defect; no QA rerun is permitted."
+  },
+  "workflow": {
+    "cumulative_build_cycles": 1,
+    "successful_cumulative_builds": 1,
+    "content_qa_passes_during_build": 0,
+    "sectional_qa_loops": 0,
+    "repeated_qa_loops": 0
+  },
+  "source": {
+    "path": "build/fga-complete-20260908-retry1/BUILD_RESULT.json",
+    "bytes": 2689,
+    "sha256": "F98C740C3E2F5A10455AB3C2875539768E72BD93DBBE2E9E261F0505CCD934E8"
+  },
+  "next": "Seal the already completed sole whole-reader QA from its existing outputs; do not rerender, re-extract, rebuild, or reinspect."
+}

@@ -1,0 +1,112 @@
+{
+  "schema": "ag-ko-fga-component-integration-v1",
+  "recorded_at": "2026-09-08T13:26:35+02:00",
+  "owner_task": "019f757c-a43b-7ed0-b810-b8effdc5d904",
+  "sequence": {
+    "before": [
+      "149 complete",
+      "e149 complete"
+    ],
+    "integrated_now": [
+      "182 complete",
+      "e182 complete"
+    ],
+    "next": "190"
+  },
+  "authority": {
+    "driver": "fga_r1/fr/main.tex / 1017 bytes / 4825D3151741EF6D765EE140F3F470747C1B8BC13E857998E4EDEFCCA9887B0E",
+    "expose_182": {
+      "path": "<workspace>/03_projects/language_management/english_germanic/03_working_translations/fga_r1/fr/182.tex",
+      "bytes": 77223,
+      "characters": 75310,
+      "lf_lines": 1432,
+      "sha256": "F861CDB4DF94D4ED25AF7027498922566DD688CC38EF78B8FCA0E1FF2A814885",
+      "coverage": "complete source EOF"
+    },
+    "errata_182": {
+      "path": "<workspace>/03_projects/language_management/english_germanic/03_working_translations/fga_r1/fr/e182.tex",
+      "bytes": 3441,
+      "characters": 3312,
+      "lf_lines": 62,
+      "sha256": "5340D63575F0A0EDA6C7C3F8203CD0203B63D73DCDB491E175D5538BD4D57B38",
+      "coverage": "complete source EOF"
+    }
+  },
+  "expose_182_integration": {
+    "preimage": "fga/182.tex through source line394 / 21907 bytes / FE6467F11077976D09AD5DE56C996B4E3436AC517D57B220B0BFD0954E1D95A7",
+    "mechanism": "one fail-closed byte-exact append transaction guarded by source, preimage, candidate, newline, ledger-JSON and final-output identities",
+    "script": "scripts/integrate_fga182_r006_r014_once.ps1",
+    "ordered_batches": [
+      {
+        "source_lines": "395-520",
+        "candidate": "candidates/fga-182-lines395-520.tex / 5386 bytes / AC8AC1BC3B414C1FF8085C7575F6F20D48EDF38592872900203E80D9EB9B19F8",
+        "ledger": "controls/FGA182_R006_CHOICES.jsonl / 20017 bytes / 10 records / 2A08DD9E9D84D4275544A3E430072D8C6350C2FA3957B0C88763E3F8DD3DAD4E"
+      },
+      {
+        "source_lines": "521-646",
+        "candidate": "candidates/fga-182-lines521-646.tex / 6691 bytes / 32E3C033F132357EB40F843D4476D09BD1DDBE150F461639EB8EBC133D07CC85",
+        "ledger": "controls/FGA182_R007_CHOICES.jsonl / 19125 bytes / 9 records / D7F4E9F70387FBF11394388D57C0B5756B66B70887C535FD19D8B24A31FF912C"
+      },
+      {
+        "source_lines": "647-772",
+        "candidate": "candidates/fga-182-lines647-772.tex / 7012 bytes / FFAF4562003D8203143B06A8237B4209BC6F2509479A1A1BB05F60D89969512D",
+        "ledger": "controls/FGA182_R008_CHOICES.jsonl / 30190 bytes / 9 records / 34C593B7FCB8E28936E71BF5AFCEC1D8CDA8F3F67DD4D1F12E7B522AF474DAA3"
+      },
+      {
+        "source_lines": "773-872",
+        "candidate": "candidates/fga-182-lines773-872.tex / 6127 bytes / D1F8A7DB4BC995915DEEB777550AFB75117C54A70AA0C2E406287FACE92028C5",
+        "ledger": "controls/FGA182_R009_CHOICES.jsonl / 24721 bytes / 10 records / C734F51A5E8488E0F4CF47FB1B0838484B87E132B6D054A88227CC8B5D46BFF1"
+      },
+      {
+        "source_lines": "873-989",
+        "candidate": "candidates/fga-182-lines873-989.tex / 6873 bytes / 84D7F811DB5EEA3EC98455C45FC51108D7FFF469A64F6911277AF7C31D62BCD5",
+        "ledger": "controls/FGA182_R010_CHOICES.jsonl / 25648 bytes / 9 records / D0D4F23E74629CED4005F72FA418517CF3DEBFED0ADED8FF11ECE235478A0B90"
+      },
+      {
+        "source_lines": "990-1086",
+        "candidate": "candidates/fga-182-lines990-1086.tex / 5221 bytes / D6C3A1B150F43DF5BC0F9C6D9680B5F1283F82C2BEFBA0A536580E319A48F9AA",
+        "ledger": "controls/FGA182_R011_CHOICES.jsonl / 30594 bytes / 10 records / B0ABD809D6066DCA079A45D09815FFC3CC58FAC5B98600D2363452ED1AE89B5F"
+      },
+      {
+        "source_lines": "1087-1186",
+        "candidate": "candidates/fga-182-lines1087-1186.tex / 5258 bytes / 53BD1077723F411B48293A55FD6A9AD4B4FA286FF64462BE9BB504960BFCA817",
+        "ledger": "controls/FGA182_R012_CHOICES.jsonl / 20130 bytes / 10 records / 1182099D1B5359258DE7DF6E44EB9DA29F1E794F446C07995A79AE3D40CF536F"
+      },
+      {
+        "source_lines": "1187-1301",
+        "candidate": "candidates/fga-182-lines1187-1301.tex / 6512 bytes / 3A447F7ABD9CDA633B3F7AC5FDEFEC68A9BC68F40AE05B15DCB01741125687DC",
+        "ledger": "controls/FGA182_R013_CHOICES.jsonl / 22030 bytes / 9 records / F0FD34FAB71DB188D0B37751C70D77CC483BE04AA1547AC365D480E5BE52B799"
+      },
+      {
+        "source_lines": "1302-1432",
+        "candidate": "candidates/fga-182-lines1302-1432.tex / 6999 bytes / 394184B836CB443192930555385AEFE7B977A0354BC19FB199D66CD2FFD2D39B",
+        "ledger": "controls/FGA182_R014_CHOICES.jsonl / 26211 bytes / 12 records / 90D58811318CB2BC6F5A6D613045C5E1E2DEE52E8025FB990D5D215A96BB00BA"
+      }
+    ],
+    "target": {
+      "path": "fga/182.tex",
+      "bytes": 77986,
+      "sha256": "277956251F4BEC1AA7A50ADFA0F0DE696B1B57C6771A8F0BF5DC394EFF5FA2D0",
+      "coverage": "complete source lines1-1432 / EOF"
+    }
+  },
+  "errata_182_integration": {
+    "mechanism": "one fail-closed byte-exact candidate-to-live transaction",
+    "script": "scripts/integrate_fga_e182_once.ps1",
+    "candidate": "candidates/fga-e182-complete.tex / 3160 bytes / 41BA4D34D4FED14D2434AC77C66D64684EDFB95752B12BFCE5A9E1507A2B4269",
+    "ledger": "controls/FGA_E182_CHOICES.jsonl / 18066 bytes / 8 records / D2790D97AFE29CDF5CE63CA4F28D953BB7E5B9105136E0233E030DC5C516DA67",
+    "target": "fga/e182.tex / 3160 bytes / 41BA4D34D4FED14D2434AC77C66D64684EDFB95752B12BFCE5A9E1507A2B4269 / complete EOF"
+  },
+  "workflow": {
+    "content_qa_passes": 0,
+    "sectional_qa_loops": 0,
+    "repeated_qa_loops": 0,
+    "tex_builds": 0,
+    "renders": 0,
+    "extractions": 0,
+    "admission_passes": 0,
+    "mechanical_component_integrations": 2,
+    "policy": "At most one aggregate admission, one mutex-held cumulative build and one whole-reader QA at a later meaningful integrated boundary; never per small section and never as a repeated loop."
+  },
+  "result": "PASS_FGA182_AND_E182_COMPLETE_SINGLE_COMPONENT_INTEGRATION_ZERO_CONTENT_QA"
+}

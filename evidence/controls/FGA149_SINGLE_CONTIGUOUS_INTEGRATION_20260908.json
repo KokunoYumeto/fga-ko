@@ -1,0 +1,127 @@
+{
+  "schema": "ag-ko-fga149-single-contiguous-integration-v1",
+  "recorded_at": "2026-09-08T12:04:59.7641466+02:00",
+  "source": {
+    "path": "<workspace>/03_projects/language_management/english_germanic/03_working_translations/fga_r1/fr/149.tex",
+    "bytes": 65575,
+    "characters": 64374,
+    "lf_lines": 1446,
+    "sha256": "BBA008B70F9AC6C08787C73C2515630DBB905CE476D0EDF266C1901DA36C44F3"
+  },
+  "batches": [
+    {
+      "id": "R001",
+      "source_lines": "1-115",
+      "candidate": "candidates/fga-r001-149-lines1-115.tex",
+      "bytes": 4775,
+      "sha256": "830EA440D3C2F8D6982E7F2EC358E3E2AAB23A31BE6423C0E5CF9B254F371FEF"
+    },
+    {
+      "id": "R002",
+      "source_lines": "117-213",
+      "candidate": "candidates/fga-r002-149-lines117-213.tex",
+      "bytes": 5177,
+      "sha256": "F31A7ECEEF8EE91904DDDBAEF9CF434036547AA232E55C424115805FF20A57B8"
+    },
+    {
+      "id": "R003",
+      "source_lines": "215-340",
+      "candidate": "candidates/fga-r003-149-lines215-340.tex",
+      "bytes": 5580,
+      "sha256": "CEC55F0B3710C8B64E6A455A5365FE49E789630FF34065D7383BB2081DED156C"
+    },
+    {
+      "id": "R004",
+      "source_lines": "341-406",
+      "candidate": "candidates/fga-r004-149-lines341-406.tex",
+      "bytes": 3466,
+      "sha256": "56A61F98C0E8180DD2B99E740098AE8DAB688CD4AD1EFB4FE08EDD6DB230BE0E"
+    },
+    {
+      "id": "R005",
+      "source_lines": "408-481",
+      "candidate": "candidates/fga-r005-149-lines408-481.tex",
+      "bytes": 3786,
+      "sha256": "D84D56FAB2067B0DA09DF0F9F44176D907B3C246406C81A0C037AA7CA6E53900"
+    },
+    {
+      "id": "R006",
+      "source_lines": "483-582",
+      "candidate": "candidates/fga-r006-149-lines483-582.tex",
+      "bytes": 4682,
+      "sha256": "55C1E068860C8FB03ECE4681E0ABA18815CD8D71C18ED81E7B01816FAF92D2A5"
+    },
+    {
+      "id": "R007",
+      "source_lines": "584-705",
+      "candidate": "candidates/fga-r007-149-lines584-705.tex",
+      "bytes": 5531,
+      "sha256": "935442190E3A8EFA1541C536B63EBF3E2DAE101966078BCFEF1E7FD2C0A19AC1"
+    },
+    {
+      "id": "R008",
+      "source_lines": "707-855",
+      "candidate": "candidates/fga-r008-149-lines707-855.tex",
+      "bytes": 6462,
+      "sha256": "79048497A1F75C7091184839E5D47FE138A3AF6C4CED46D0754187B46B71A2DE"
+    },
+    {
+      "id": "R009",
+      "source_lines": "857-960",
+      "candidate": "candidates/fga-r009-149-lines857-960.tex",
+      "bytes": 4665,
+      "sha256": "BC32384BB2479E985B5996F2E8F395B7D1864426B1234B376BEB2933C5008109"
+    },
+    {
+      "id": "R010",
+      "source_lines": "961-1065",
+      "candidate": "candidates/fga-r010-149-lines961-1065.tex",
+      "bytes": 5357,
+      "sha256": "41BB71B3FC2FCF6FA95A25B9B24578D6D8D856C1508E7E3FA62B1AF6361C0271"
+    },
+    {
+      "id": "R011",
+      "source_lines": "1067-1192",
+      "candidate": "candidates/fga-r011-149-lines1067-1192.tex",
+      "bytes": 5459,
+      "sha256": "AD4463476ACB5E353F87BF1B64FF19E9679E6AB6D723B126D3A060EAFA87842A"
+    },
+    {
+      "id": "R012",
+      "source_lines": "1194-1319",
+      "candidate": "candidates/fga-r012-149-lines1194-1319.tex",
+      "bytes": 5937,
+      "sha256": "0822304CAF0BC078183B1EEF7B895D3EF6975607E6E475774AF7E55CFE120EDC"
+    },
+    {
+      "id": "R013",
+      "source_lines": "1321-1446",
+      "candidate": "candidates/fga-r013-149-lines1321-1446.tex",
+      "bytes": 5864,
+      "sha256": "330A4154373A19A5BCFA5BAEFBC976F9ECBE6C96A6BB9836B2572E72F3CDB780"
+    }
+  ],
+  "untranslated_source_lines": [
+    116,
+    214,
+    407,
+    482,
+    583,
+    706,
+    856,
+    1066,
+    1193,
+    1320
+  ],
+  "untranslated_source_line_disposition": "All listed lines are exact blank separators; no nonblank source line is uncovered.",
+  "target": {
+    "path": "<workspace>/03_projects/language_management/cjk/03_working_translations/ag_ko/fga/149.tex",
+    "bytes": 66751,
+    "characters": 43763,
+    "lf_lines": 1407,
+    "sha256": "A6903C0C1CEE7EECA717AC3FB4B15126FB42F3970B299F8A61BDCD7C82767CEF"
+  },
+  "operation": "One mechanical canonical-order integration of thirteen completed translation batches.",
+  "qa": "NONE: no sectional QA, no repeated QA, no build, and no render. A later substantial integrated boundary may receive one aggregate content QA.",
+  "result": "PASS_CONTIGUOUS_SOURCE_COVERAGE_AND_MECHANICAL_INTEGRATION"
+}

@@ -1,0 +1,135 @@
+{
+  "schema": "ag-ko-fga-complete-component-integration-v1",
+  "recorded_at": "2026-09-08T14:52:55+02:00",
+  "owner_task": "019f757c-a43b-7ed0-b810-b8effdc5d904",
+  "scope": "Korean FGA Expose232 and e232, complete through source EOF",
+  "authority": [
+    {
+      "path": "<workspace>/03_projects\\language_management\\english_germanic\\03_working_translations\\fga_r1\\fr\\232.tex",
+      "bytes": 53664,
+      "lf_lines": 999,
+      "sha256": "623521A85A54A1EEF805D22415533BD0B279EECDAB8F12064231ED9DFA7B0BFD"
+    },
+    {
+      "path": "<workspace>/03_projects\\language_management\\english_germanic\\03_working_translations\\fga_r1\\fr\\e232.tex",
+      "bytes": 1714,
+      "lf_lines": 34,
+      "sha256": "DB36858212092A78EB558C20EBA7A9712BBB1771551E4FAA84DC818A3973BF84"
+    }
+  ],
+  "candidates_and_choice_ledgers": [
+    {
+      "candidate": {
+        "path": "candidates/fga-232-lines1-316.tex",
+        "bytes": 16113,
+        "sha256": "EF0C36B18C21195C602A00021F7EE4EA186D7A79FA848A1A6A33895FB1770CEF"
+      },
+      "ledger": {
+        "path": "controls/FGA232_R001_CHOICES.jsonl",
+        "bytes": 33056,
+        "records": 12,
+        "sha256": "137D15BFE0BCBDDE7151A739B137C0BB66FF30CD9D5208315BE2F992F895A84C"
+      }
+    },
+    {
+      "candidate": {
+        "path": "candidates/fga-232-lines317-477.tex",
+        "bytes": 8557,
+        "sha256": "EBA93CFCF2CDFD80456C8C748C8DD3313E8AE5F701145CE1A58849F9E8420961"
+      },
+      "ledger": {
+        "path": "controls/FGA232_R002_CHOICES.jsonl",
+        "bytes": 28773,
+        "records": 9,
+        "sha256": "776AFFE97792C05ABF5200439C34BA5E4A8CFC428733BD74225A6448722198C2"
+      }
+    },
+    {
+      "candidate": {
+        "path": "candidates/fga-232-lines478-655.tex",
+        "bytes": 10484,
+        "sha256": "5929ACBFF7A891439005B848F598CB4E4F45FCE6AEC61C0A88325A7AECC2BAEF"
+      },
+      "ledger": {
+        "path": "controls/FGA232_R003_CHOICES.jsonl",
+        "bytes": 34784,
+        "records": 10,
+        "sha256": "684A9D934E83FD49F101DE085461A659D17BBDE92B8B351F7BD8B523DAB9B6B3"
+      }
+    },
+    {
+      "candidate": {
+        "path": "candidates/fga-232-lines656-749.tex",
+        "bytes": 6100,
+        "sha256": "DD220679ED2101588784C5BEDD3F230782FF49050CE644A34410AF462827980C"
+      },
+      "ledger": {
+        "path": "controls/FGA232_R004_CHOICES.jsonl",
+        "bytes": 28078,
+        "records": 7,
+        "sha256": "6F4F5A769479BF9D78C0CC057061F2477FB3ED8E66EB7D73A8167E8115807351"
+      }
+    },
+    {
+      "candidate": {
+        "path": "candidates/fga-232-lines750-999.tex",
+        "bytes": 12572,
+        "sha256": "4D370CB0610EC47C17F010B5DA6B8BB94AD0C11AEF178A0E272009C9E74F560B"
+      },
+      "ledger": {
+        "path": "controls/FGA232_R005_CHOICES.jsonl",
+        "bytes": 36029,
+        "records": 10,
+        "sha256": "0ECEB3F0226768A12026A82DD88182F4975D1A3FAC0F0A0CD38A4108C78D1E3E"
+      }
+    },
+    {
+      "candidate": {
+        "path": "candidates/fga-e232-complete.tex",
+        "bytes": 1798,
+        "sha256": "2FBAE54463E02E75D4EB4E173E14B45A33E6908E4EB013F74A5463AC271DD20A"
+      },
+      "ledger": {
+        "path": "controls/FGA_E232_CHOICES.jsonl",
+        "bytes": 20333,
+        "records": 7,
+        "sha256": "88F06CAB069575E2B60E40BB781C37C15274016BC62BAC69CB2BFCEA10A05F7E"
+      }
+    }
+  ],
+  "targets": [
+    {
+      "path": "fga/232.tex",
+      "bytes": 53826,
+      "characters": 31999,
+      "lf_lines": 966,
+      "sha256": "DD676B395EACB555FD6CAC74915AD7714A52FF4C549E30E19291F48E68317C74",
+      "coverage": "complete source lines1-999/EOF"
+    },
+    {
+      "path": "fga/e232.tex",
+      "bytes": 1798,
+      "characters": 1080,
+      "lf_lines": 38,
+      "sha256": "2FBAE54463E02E75D4EB4E173E14B45A33E6908E4EB013F74A5463AC271DD20A",
+      "coverage": "complete source EOF"
+    }
+  ],
+  "transaction": {
+    "expose232": "five ordered substantial candidates concatenated byte-for-byte once",
+    "e232": "complete candidate copied byte-for-byte once",
+    "source_order": "preserved",
+    "choice_ledger_json_parse": "PASS",
+    "exact_target_identity": "PASS"
+  },
+  "workflow": {
+    "content_qa_passes": 0,
+    "sectional_qa_loops": 0,
+    "repeated_qa_loops": 0,
+    "tex_builds": 0,
+    "renders": 0,
+    "extractions": 0,
+    "mechanical_component_integrations": 2
+  },
+  "result": "PASS_EXACT_SINGLE_COMPONENT_INTEGRATIONS_ZERO_CONTENT_QA"
+}

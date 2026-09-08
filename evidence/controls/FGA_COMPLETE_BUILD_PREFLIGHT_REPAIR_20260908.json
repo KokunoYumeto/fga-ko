@@ -1,0 +1,86 @@
+{
+  "schema": "fga-ko-build-preflight-repair-v1",
+  "recorded_at": "2026-09-08T15:26:52+02:00",
+  "owner_task": "019f757c-a43b-7ed0-b810-b8effdc5d904",
+  "classification": "One bounded build-plumbing repair after a pass-1 process failure; not a content-QA pass, QA loop, second aggregate admission, or translated-source change.",
+  "failure": {
+    "build_route": "build/fga-complete-20260908",
+    "convergence_pass": 1,
+    "exit_code": 1,
+    "pages_output": 0,
+    "reason": "fontspec could not find D2Coding",
+    "stdout": {
+      "path": "build/fga-complete-20260908/out/main.pass-1.stdout.txt",
+      "bytes": 2272,
+      "sha256": "628E1242282B4D5258E3EE1327BD1F6ACF7617BEF8E77E66BD1FF9195E4992EB"
+    },
+    "stderr": {
+      "path": "build/fga-complete-20260908/out/main.pass-1.stderr.txt",
+      "bytes": 457,
+      "sha256": "2C22798F949E5C679BB47843DE435284EB73573B1F3F5A767754A4AF31264F99"
+    },
+    "log": {
+      "path": "build/fga-complete-20260908/out/main.log",
+      "bytes": 7867,
+      "sha256": "ACD4BA5204B4A67787776B4582F195FA2882A70E847ADD5211F46073C075663A"
+    }
+  },
+  "repair": {
+    "source_and_translation_components_changed": false,
+    "prior_base": {
+      "path": "fga/base-ko.tex",
+      "bytes": 2513,
+      "sha256": "6B113E6FF5393745E489DFB639904F2C0CAF44957E01F13D25B27E470A203C07"
+    },
+    "current_base": {
+      "path": "fga/base-ko.tex",
+      "bytes": 2520,
+      "sha256": "4C875B054D7F213004E97BD8611D0B670188A0C2F0526DDE0CFE228DB12AE4FE"
+    },
+    "exact_change": "D2Coding -> TeX Gyre Cursor in the monospaced-font declaration only",
+    "prior_builder": {
+      "path": "scripts/build_fga_complete_once_20260908.ps1",
+      "bytes": 9567,
+      "sha256": "53BF62F0DADEC35176454ED78C4BAC723634F7D46BCB18513A376A5201582F1B"
+    },
+    "current_builder": {
+      "path": "scripts/build_fga_complete_once_20260908.ps1",
+      "bytes": 9574,
+      "sha256": "197E04F973E0BACE152176EF135774969E3B9848DFFE23EC0CACEEDCD0DBC41B"
+    },
+    "retry_route": "build/fga-complete-20260908-retry1"
+  },
+  "binding_update": {
+    "prior_manifest": {
+      "path": "fga/FGA_COMPLETE_INPUTS.json",
+      "bytes": 26176,
+      "sha256": "AA5C23E8CFAF2059BC1A03080737A8028F20898A471AA98F14725DB85BF22678"
+    },
+    "current_manifest": {
+      "path": "fga/FGA_COMPLETE_INPUTS.json",
+      "bytes": 26887,
+      "sha256": "DEB6484F009D09919FE4C4865D21BB4E4FEA17E4FC10C984A027852238366FF5"
+    },
+    "prior_admission": {
+      "path": "controls/FGA_COMPLETE_SINGLE_AGGREGATE_ADMISSION_20260908.json",
+      "bytes": 2781,
+      "sha256": "66797269632BD84494C13E312F2EBE3CABCBAC9D526B32072F906A2D399951F7"
+    },
+    "current_admission": {
+      "path": "controls/FGA_COMPLETE_SINGLE_AGGREGATE_ADMISSION_20260908.json",
+      "bytes": 3973,
+      "sha256": "15A9C9CEBF9FDF29D2AB03410F56173F76841FC4B7866FD8C9371F76B2AAE74D"
+    },
+    "aggregate_admissions": 1
+  },
+  "workflow": {
+    "aggregate_admissions": 1,
+    "tex_processes_started": 1,
+    "successful_cumulative_builds": 0,
+    "pdfs_produced": 0,
+    "content_qa_passes": 0,
+    "sectional_qa_loops": 0,
+    "repeated_qa_loops": 0
+  },
+  "result": "PASS_BOUNDED_PREFLIGHT_REPAIR_READY_FOR_ONE_RETRY"
+}

@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite this exact Korean FGA edition."
+title: "대수기하학의 기초 — 여덟 강연과 1962년 논평 — 한국어판 / Fondements de la géométrie algébrique — Korean Edition"
+type: book
+authors:
+  - family-names: "Grothendieck"
+    given-names: "Alexandre"
+version: "2026-09-08-complete-r1"
+date-released: 2026-09-08
+doi: "10.5281/zenodo.22661829"
+url: "https://doi.org/10.5281/zenodo.22661828"
+preferred-citation:
+  type: book
+  title: "대수기하학의 기초 — 여덟 강연과 1962년 논평 — 한국어판 / Fondements de la géométrie algébrique — Korean Edition"
+  authors:
+    - family-names: "Grothendieck"
+      given-names: "Alexandre"
+  languages:
+    - "ko"
+  doi: "10.5281/zenodo.22661829"
+  version: "2026-09-08-complete-r1"
+  year: "2026"
+  url: "https://doi.org/10.5281/zenodo.22661828"

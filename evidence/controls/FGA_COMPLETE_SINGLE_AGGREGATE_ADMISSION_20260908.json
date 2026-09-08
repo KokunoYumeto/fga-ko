@@ -1,0 +1,113 @@
+{
+  "schema": "fga-ko-single-aggregate-admission-v1",
+  "recorded_at": "2026-09-08T15:21:27+02:00",
+  "owner_task": "019f757c-a43b-7ed0-b810-b8effdc5d904",
+  "scope": "Complete Korean FGA corpus, all seventeen canonical components in maintained French driver order.",
+  "manifest": {
+    "path": "fga/FGA_COMPLETE_INPUTS.json",
+    "bytes": 26887,
+    "sha256": "DEB6484F009D09919FE4C4865D21BB4E4FEA17E4FC10C984A027852238366FF5"
+  },
+  "authority": {
+    "driver": {
+      "path": "main.tex",
+      "bytes": 1017,
+      "sha256": "4825D3151741EF6D765EE140F3F470747C1B8BC13E857998E4EDEFCCA9887B0E"
+    },
+    "component_count": 17,
+    "source_identity_checks": "PASS",
+    "canonical_order": "PASS"
+  },
+  "korean_inputs": {
+    "entrypoint": {
+      "path": "main.tex",
+      "bytes": 735,
+      "sha256": "2B75A6AA36153275548E569AEA8FBE709BAFA30091CF26437810619E5E779952"
+    },
+    "base": {
+      "path": "base-ko.tex",
+      "bytes": 2520,
+      "sha256": "4C875B054D7F213004E97BD8611D0B670188A0C2F0526DDE0CFE228DB12AE4FE"
+    },
+    "front": {
+      "path": "front-ko.tex",
+      "bytes": 1592,
+      "sha256": "85D238CC3D6DA81C0D11F5C35936E650C5EBC4B104C46597BDC367450D4B1782"
+    },
+    "component_count": 17,
+    "total_component_bytes": 571483,
+    "exact_identity_checks": "PASS",
+    "input_order": "PASS",
+    "source_page_markers": 209
+  },
+  "choice_evidence": {
+    "ledger_count": 69,
+    "record_count": 801,
+    "total_bytes": 2073794,
+    "json_parse": "PASS",
+    "occurrence_ledgers": "manifest-bound"
+  },
+  "human_readable_review": {
+    "path": "expert_review/FGA_COMPLETE_EXPERT_REVIEW_20260908.md",
+    "bytes": 4034,
+    "sha256": "A49BB5DBEE7797C5DA3965B63E294EE5A9631B73C94A917EEE5490B62643B112"
+  },
+  "public_context": {
+    "readme": {
+      "path": "README.md",
+      "bytes": 2218,
+      "sha256": "13A17E529401E3AADB79A50275B66C1E0C6745828D85EE9EE634563899D23215"
+    },
+    "rights_and_provenance": {
+      "path": "RIGHTS_AND_PROVENANCE.md",
+      "bytes": 1508,
+      "sha256": "CC76C79869266229C77D29C480B330A907914D2412D9DB643C0759950D597ECA"
+    },
+    "blanket_open_license_claim": false,
+    "non_endorsement": "explicit"
+  },
+  "builder": {
+    "path": "scripts/build_fga_complete_once_20260908.ps1",
+    "bytes": 9574,
+    "sha256": "197E04F973E0BACE152176EF135774969E3B9848DFFE23EC0CACEEDCD0DBC41B"
+  },
+  "workflow": {
+    "aggregate_admissions": 1,
+    "content_qa_passes": 0,
+    "sectional_qa_loops": 0,
+    "repeated_qa_loops": 0,
+    "tex_builds": 0,
+    "renders": 0,
+    "extractions": 0
+  },
+  "result": "PASS_SINGLE_COMPLETE_CORPUS_ADMISSION",
+  "next": "Run the one-shot global-mutex-held cumulative build, then the single whole-reader QA.",
+  "preflight_repair": {
+    "repaired_at": "2026-09-08T15:26:52+02:00",
+    "classification": "bounded build-plumbing repair within the existing single aggregate admission; not a second admission and not content QA",
+    "failed_process": {
+      "convergence_pass": 1,
+      "exit_code": 1,
+      "pages_output": 0,
+      "reason": "unavailable D2Coding font",
+      "stdout": {
+        "path": "build/fga-complete-20260908/out/main.pass-1.stdout.txt",
+        "bytes": 2272,
+        "sha256": "628E1242282B4D5258E3EE1327BD1F6ACF7617BEF8E77E66BD1FF9195E4992EB"
+      },
+      "stderr": {
+        "path": "build/fga-complete-20260908/out/main.pass-1.stderr.txt",
+        "bytes": 457,
+        "sha256": "2C22798F949E5C679BB47843DE435284EB73573B1F3F5A767754A4AF31264F99"
+      },
+      "log": {
+        "path": "build/fga-complete-20260908/out/main.log",
+        "bytes": 7867,
+        "sha256": "ACD4BA5204B4A67787776B4582F195FA2882A70E847ADD5211F46073C075663A"
+      }
+    },
+    "replacement": "installed TeX Gyre Cursor; no source or translated component changed",
+    "retry_route": "build/fga-complete-20260908-retry1",
+    "aggregate_admissions": 1
+  }
+}

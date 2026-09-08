@@ -1,0 +1,86 @@
+{
+  "schema": "ag-ko-fga-component-integration-v1",
+  "recorded_at": "2026-09-08T13:51:31+02:00",
+  "owner_task": "019f757c-a43b-7ed0-b810-b8effdc5d904",
+  "sequence": {
+    "previously_complete": ["149", "e149", "182", "e182"],
+    "integrated_now": ["190", "e190", "195", "e195"],
+    "next": "212"
+  },
+  "authority": {
+    "190": "fga_r1/fr/190.tex / 82254 bytes / 80483 characters / 1605 LF / 57630CD7BAF20D869FDD838FFA73277C99A1A2273D71F6D476277A1D3F77609B / complete EOF",
+    "e190": "fga_r1/fr/e190.tex / 2152 bytes / 2106 characters / 46 LF / 859209DD4C0E90DF6AE71A1B45F1953F7F694E6EB657D67CB18E8982F9085B72 / complete EOF",
+    "195": "fga_r1/fr/195.tex / 62406 bytes / 1159 LF / EC2554C5FC0EA27057161D68B71BFD7D924F447E50B4F2C4C1A24C38995E54D2 / complete EOF",
+    "e195": "fga_r1/fr/e195.tex / 2969 bytes / 63 LF / 7576D77D4BA6F44890EDD75D066A79034231ECF0FCC989555E561F720A15D07A / complete EOF"
+  },
+  "expose_190": {
+    "mechanism": "one fail-closed exact complete-component integration after every contiguous production span existed",
+    "script": "scripts/integrate_fga190_complete_once.ps1",
+    "ordered_candidates": [
+      "candidates/fga-190-lines1-218.tex / 9887 bytes / 59E8C7ADCA0958312D7C7DE74349B2746AC168EC06E7BB8FE1B3B3BBCAEF1CC0",
+      "candidates/fga-190-lines219-445.tex / 10869 bytes / 3896C943D8C467253D710BE9D10003D9CE90A32D07F2381D38B4C329CAAFE3BE",
+      "candidates/fga-190-lines446-768.tex / 17129 bytes / 7B52BE86378F519EB4AC2214B9E1B912220AA30CA1C5DD2FBECA85EF6FCF24F2",
+      "candidates/fga-190-lines769-1008.tex / 11242 bytes / E068D32969E08613CA1CDE9D57CEDAC5601EA2CECC543841620AA8361F4A567C",
+      "candidates/fga-190-lines1009-1251.tex / 12925 bytes / 4F5A9DD9BE6396ED599E4718D4ABF4033553176D3519CF2E8880D86C8DA8B4C8",
+      "candidates/fga-190-lines1252-1411.tex / 8385 bytes / BB6E628D05606C60B37E0E0B13A249DA9726BB07AC04081D42BC97AF469AF47A",
+      "candidates/fga-190-lines1412-1605.tex / 11040 bytes / DBE5C72955C1923BD9A23F205F07B1ACDAFB449B6CF243E6C71C31CE375E4A18"
+    ],
+    "choice_ledgers": [
+      "controls/FGA190_R001_CHOICES.jsonl / 31196 bytes / 11 records / 0DDF59BA047D354E03ADAF0C4E71B67888B6A6D246AC799DD2667F536AA76FD0",
+      "controls/FGA190_R002_CHOICES.jsonl / 27687 bytes / 12 records / EEFF6E7147D4FA53305F6777BCFE4EC671E126708EE3B0EDCA78B82A51572B04",
+      "controls/FGA190_R003_CHOICES.jsonl / 38816 bytes / 14 records / 8313C27E34CC921B9547570E9044D407D83524C5AE2CC7661202D141FC5BB45E",
+      "controls/FGA190_R004_CHOICES.jsonl / 28551 bytes / 12 records / 7742E2DA5F0EF14CD635E83967DBD2059528D0A68EF0DD1A2AFCEB035011ECA7",
+      "controls/FGA190_R005_CHOICES.jsonl / 24948 bytes / 10 records / A7289B399AA49B27E84485534B4641F0A54650EDDB1727155046DE3050BDD734",
+      "controls/FGA190_R006_CHOICES.jsonl / 26108 bytes / 10 records / AFB4016F97D52CA78AECD2EEB86FC490F4975E9B519682CBE1E48B157DF4203C",
+      "controls/FGA190_R007_CHOICES.jsonl / 23795 bytes / 10 records / DB052C47C4CD3B75FF311629E5E1F3C88659EC2E735D43EFD26D6A9F7931BB58"
+    ],
+    "bounded_production_correction": {
+      "trigger": "The e190 production ledger exposed a same-work terminology mismatch in candidate lines1009-1251.",
+      "action": "One direct pre-integration correction applied the R001 same-Exposé 하강 family and the e182 structure-group/동차 bundle syntax, then updated the affected occurrence ledger once.",
+      "result": "candidate has 25 하강 occurrences and zero 강하 occurrences; structure-group phrasing is explicit; no review or QA cycle was initiated"
+    },
+    "target": "fga/190.tex / 81477 bytes / 48715 characters / 1512 LF / 8B45002C035ADF9E7E4C286870CAC72353DEEF5B420D4A01BF4C0ADDDD29EDD0 / complete EOF"
+  },
+  "errata_190": {
+    "script": "scripts/integrate_fga_e190_once.ps1",
+    "candidate": "candidates/fga-e190-complete.tex / 2090 bytes / 2989779C19E4CFC2B091D50D0E64485FD2248D9EF4DD7BA44DC16985F79B6F0B",
+    "ledger": "controls/FGA_E190_CHOICES.jsonl / 19278 bytes / 6 records / EDE18A7A223703AB2D4D9BCFF993BDCBB137074218AB33C4761F2A8501F53988",
+    "target": "fga/e190.tex / 2090 bytes / 1310 characters / 43 LF / 2989779C19E4CFC2B091D50D0E64485FD2248D9EF4DD7BA44DC16985F79B6F0B / complete EOF"
+  },
+  "expose_195": {
+    "mechanism": "one fail-closed exact complete-component integration",
+    "script": "scripts/integrate_fga195_and_e195_once.ps1",
+    "ordered_candidates": [
+      "candidates/fga-195-lines1-239.tex / 11036 bytes / 89EA329B468D5E70D52A8E587379419D483583E750B620A677370BD9A4F2F3C7",
+      "candidates/fga-195-lines240-547.tex / 15268 bytes / 5E8845D78246EDF538A1137A62CF41151C17D1BB60F5B296F5E4B251666785A7",
+      "candidates/fga-195-lines548-773.tex / 12947 bytes / C056CBA00CECC9B57AAC54A94E05E335A963BF975F5818B0D7E5CB8148865BB2",
+      "candidates/fga-195-lines774-993.tex / 12384 bytes / 8AFE193B70F0076B588A378D0CA2D855FD597BA4CCB781C96065217DEE301D01",
+      "candidates/fga-195-lines994-1159.tex / 10024 bytes / 9777BCFCC7D6E722ADCFC9E6EAA2F681287AB249E3A7BED2E85C650D4DAF3BC8"
+    ],
+    "choice_ledgers": [
+      "controls/FGA195_R001_CHOICES.jsonl / 25182 bytes / 11 records / B0BAB88EC2CE329E3A2742B914B5E1297E582B98711DDE558B5A28750EBBCCFE",
+      "controls/FGA195_R002_CHOICES.jsonl / 23193 bytes / 9 records / 872CF1127C49F372372D4F4A4DE4B9EF561DADF0E468E05B05242BE9D49330D7",
+      "controls/FGA195_R003_CHOICES.jsonl / 37242 bytes / 10 records / B5AB92691A51F44320228A9B3BD03839A06BEBE66AA2316A28A5885A1C0D66FF",
+      "controls/FGA195_R004_CHOICES.jsonl / 27687 bytes / 10 records / 92460BF5AD450E6B5907A04AE1E78BE6E39A6A297883EEAC666A3D0AE15C11BE",
+      "controls/FGA195_R005_CHOICES.jsonl / 23382 bytes / 9 records / 8FA621988CDE41B92CCED82B7356EE7524FBCEBD1CB0A42B906209BE60F3D7B2"
+    ],
+    "target": "fga/195.tex / 61659 bytes / 35361 characters / 1059 LF / DDCD07B3B0D2205656B25ACB05BB391318FF8E2BAAFABE41E8B26DE3E0D884BA / complete EOF"
+  },
+  "errata_195": {
+    "candidate": "candidates/fga-e195-complete.tex / 2850 bytes / DC42380909065A188971D9026EA506F1EEE577AEB225584A6A8B1C974B54891F",
+    "ledger": "controls/FGA_E195_CHOICES.jsonl / 25963 bytes / 9 records / 1BDE86C6C6B84240B46D267AD5CB5316D0757F17FAF5D6544E5AA116EF2E2A5F",
+    "target": "fga/e195.tex / 2850 bytes / 1726 characters / 57 LF / DC42380909065A188971D9026EA506F1EEE577AEB225584A6A8B1C974B54891F / complete EOF"
+  },
+  "workflow": {
+    "content_qa_passes": 0,
+    "sectional_qa_loops": 0,
+    "repeated_qa_loops": 0,
+    "tex_builds": 0,
+    "renders": 0,
+    "extractions": 0,
+    "admission_passes": 0,
+    "mechanical_component_integrations": 4,
+    "policy": "No small-section or repeated content QA. At most one aggregate admission, one mutex-held cumulative build, and one whole-reader QA at a later meaningful integrated boundary."
+  },
+  "result": "PASS_FGA190_E190_195_E195_COMPLETE_SINGLE_COMPONENT_INTEGRATION_ZERO_CONTENT_QA"
+}

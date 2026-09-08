@@ -1,0 +1,39 @@
+{
+  "schema": "ag-ko-bounded-production-normalization-v1",
+  "recorded_at": "2026-09-08T14:14:02+02:00",
+  "owner_task": "019f757c-a43b-7ed0-b810-b8effdc5d904",
+  "scope": "FGA Exposé195 selected descent-family terminology only",
+  "trigger": "While producing Exposé232, its source/terminology comparison exposed that seven selected Exposé195 occurrences used the cross-corpus variant 강하 despite Exposé195's title and the already fixed same-series FGA190 family using 하강.",
+  "authority": {
+    "same_series_rule": "controls/FGA190_R001_CHOICES.jsonl / FGA190-R001-C001 / 하강 기법, 하강 데이터, F-하강 사상",
+    "work_title": "fga/195.tex begins 강연 195 — 하강 기법 II and 대수기하학에서의 하강 기법과 존재 정리",
+    "cross_corpus_evidence": "The cited Korean Stacks passages genuinely use 강하; those exact quotations remain unchanged in the ledgers and are explicitly labeled as a rejected cross-corpus surface variant rather than falsified or erased."
+  },
+  "preimage": {
+    "target": "fga/195.tex / 61659 bytes / DDCD07B3B0D2205656B25ACB05BB391318FF8E2BAAFABE41E8B26DE3E0D884BA",
+    "r002_candidate": "candidates/fga-195-lines240-547.tex / 15268 bytes / 5E8845D78246EDF538A1137A62CF41151C17D1BB60F5B296F5E4B251666785A7",
+    "r004_candidate": "candidates/fga-195-lines774-993.tex / 12384 bytes / 8AFE193B70F0076B588A378D0CA2D855FD597BA4CCB781C96065217DEE301D01"
+  },
+  "action": {
+    "kind": "one bounded production correction, not a content-QA pass",
+    "selected_replacements": "All seven selected 강하-family occurrences in R002 and R004 became 하강; exact external quotations retaining 강하 were not altered.",
+    "script": "scripts/normalize_fga195_descent_family_once.ps1",
+    "live_reassembly": "Reassembled Exposé195 exactly once from its five current candidate spans after normalization."
+  },
+  "postimage": {
+    "r002_candidate": "candidates/fga-195-lines240-547.tex / 15267 bytes / E45EE490FAAC535C63A5FFEBFB5FE6C5AF5C611363D8D26765104492F88E796D",
+    "r002_ledger": "controls/FGA195_R002_CHOICES.jsonl / 23918 bytes / 9 records / 33A411F9D9143E6BFC044EBCF7CA34940A6BF7D87D1E037A1159983130050C95",
+    "r004_candidate": "candidates/fga-195-lines774-993.tex / 12384 bytes / 679494FB4DB700CD2F4EF5935B0444C6FD10CCD9EDF86E8B1897CD592C854192",
+    "r004_ledger": "controls/FGA195_R004_CHOICES.jsonl / 27862 bytes / 10 records / 5272946BE36F1B3AC5C619FCF0B635111CAE72F21C99559C977F3E5FC37A95DB",
+    "target": "fga/195.tex / 61658 bytes / 35360 characters / 1058 LF / D5DA4D85ECD7CC08D026398F0F0889F088739CDB0DCAB8B10AD6515088BC0DB6"
+  },
+  "workflow": {
+    "content_qa_passes": 0,
+    "sectional_qa_loops": 0,
+    "repeated_qa_loops": 0,
+    "tex_builds": 0,
+    "renders": 0,
+    "extractions": 0
+  },
+  "result": "PASS_SINGLE_BOUNDED_SAME_SERIES_TERMINOLOGY_NORMALIZATION_ZERO_CONTENT_QA"
+}

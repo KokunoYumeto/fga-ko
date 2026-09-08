@@ -1,0 +1,78 @@
+{
+  "schema": "fga-ko-complete-public-package-v1",
+  "version": "2026-09-08-complete-r1",
+  "title": "대수기하학의 기초 — 여덟 강연과 1962년 논평 — 한국어판 / Fondements de la géométrie algébrique — Korean Edition",
+  "recommended_github_tag": "fga-ko-2026-09-08-complete-r1",
+  "repository": "https://github.com/KokunoYumeto/fga-ko",
+  "concept_doi": "10.5281/zenodo.22661828",
+  "exact_doi": "10.5281/zenodo.22661829",
+  "scope": {
+    "canonical_components": 17,
+    "historical_page_markers": 209,
+    "reader_pages": 140
+  },
+  "source_archive": {
+    "path": "01_FGA_ko_EDITABLE_SOURCES.zip",
+    "bytes": 198199,
+    "sha256": "5D2131BDFC5CE3F9149E7BFAE833FE2B22F8AC1F2FAB8D573041105741C8D42B",
+    "entries": 27,
+    "uncompressed_bytes": 636810,
+    "ordered_entry_inventory_sha256": "66ACD57E4F879F1D7C9EE48F413FEC1264C6C568C48EFDEAC8A92FCE336EC235",
+    "single_postwrite_entry_readback": true
+  },
+  "evidence_archive": {
+    "path": "02_FGA_ko_EVIDENCE_AND_PROVENANCE.zip",
+    "bytes": 15004768,
+    "sha256": "9DA489B62AAB5F8E2DA33A3FE280A6D12C2B3623B3D4C74AF1E07CBEEE227B6C",
+    "entries": 91,
+    "uncompressed_bytes": 17344786,
+    "ordered_entry_inventory_sha256": "F689B75E870507BCF208503EC08F466038280E45596C9C5A58A0D155F05EC330",
+    "single_postwrite_entry_readback": true
+  },
+  "assets": [
+    {
+      "upload_order": 0,
+      "name": "00_FGA_ko_CUMULATIVE_READER.pdf",
+      "bytes": 939534,
+      "sha256": "03EB81261C062293E6F9A6315E58F3AFE215BFE8CF23629DE42DC427E8DAD6D4",
+      "human_preview": true
+    },
+    {
+      "upload_order": 1,
+      "name": "01_FGA_ko_EDITABLE_SOURCES.zip",
+      "bytes": 198199,
+      "sha256": "5D2131BDFC5CE3F9149E7BFAE833FE2B22F8AC1F2FAB8D573041105741C8D42B"
+    },
+    {
+      "upload_order": 2,
+      "name": "02_FGA_ko_EVIDENCE_AND_PROVENANCE.zip",
+      "bytes": 15004768,
+      "sha256": "9DA489B62AAB5F8E2DA33A3FE280A6D12C2B3623B3D4C74AF1E07CBEEE227B6C"
+    },
+    {
+      "upload_order": 3,
+      "name": "03_FGA_ko_SHA256_MANIFEST.txt",
+      "bytes": 341,
+      "sha256": "063B9B40BADFDBBF69163AC2186CDAF19DD9C21A2C0A0D7E7C324B75636ACF76"
+    }
+  ],
+  "privacy_and_metadata": {
+    "public_text_files_checked": 82,
+    "machine_local_user_paths_present": false,
+    "user_first_name_present": false,
+    "forbidden_umbrella_name_present_in_public_metadata": false,
+    "creator": "Grothendieck, Alexandre",
+    "sole_project_contributor": "AI typesetting & translation",
+    "license": "notspecified"
+  },
+  "workflow": {
+    "packaging_transactions": 1,
+    "postwrite_zip_entry_readbacks": 1,
+    "translation_runs": 0,
+    "tex_builds": 0,
+    "renders": 0,
+    "extractions": 0,
+    "content_qa_passes": 0
+  },
+  "result": "PASS_PACKAGE_READY_FOR_GITHUB_AND_ZENODO_PUBLICATION"
+}

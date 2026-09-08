@@ -1,0 +1,104 @@
+{
+  "schema": "agko-fga-complete-single-aggregate-pdf-qa-terminal-disposition-v1",
+  "sealed_at": "2026-09-08T15:44:07+02:00",
+  "result": "PASS_FGA_COMPLETE_SINGLE_AGGREGATE_PDF_QA",
+  "scope": "Exactly one complete-FGA whole-reader aggregate QA after one successful mutex-serialized cumulative convergence build; zero per-section QA loops and zero repeated whole-reader QA loops.",
+  "reader": {
+    "path": "output/pdf/00_FGA_ko_CUMULATIVE_READER.pdf",
+    "pages": 140,
+    "bytes": 939534,
+    "sha256": "03EB81261C062293E6F9A6315E58F3AFE215BFE8CF23629DE42DC427E8DAD6D4",
+    "page_geometry": "A4 595.28x841.89 points on all 140 pages",
+    "encrypted": false
+  },
+  "bound_build": {
+    "path": "controls/FGA_COMPLETE_CUMULATIVE_BUILD_20260908.json",
+    "bytes": 3324,
+    "sha256": "8459082EC2A9E328B5FD4BB11F901FB28D2D173080E43CBD262C10652335773B"
+  },
+  "automated_whole_reader_checks": {
+    "preparation": {
+      "path": "tmp/pdfs/fga-complete-single-aggregate-qa-20260908/automatic.json",
+      "bytes": 42088,
+      "sha256": "21E0AF2CF690F1031488A0B1B707FAACE33737C03BB1ED3886E8068423B88CB9"
+    },
+    "strict_page_count": 140,
+    "outline_items": 94,
+    "link_annotations": 186,
+    "fonts_embedded_and_to_unicode": true,
+    "extracted_characters": 342732,
+    "hangul_syllables": 119102,
+    "replacement_characters": 0,
+    "nul_characters": 0,
+    "canonical_headings_all_present": true,
+    "empty_text_pages": [],
+    "rendered_pages": 140,
+    "render_dimensions": "910x1287 at 110 dpi"
+  },
+  "sole_visual_pass": {
+    "contact_sheets": [
+      {
+        "path": "tmp/pdfs/fga-complete-single-aggregate-qa-20260908/contact-sheets/sheet-001-pages-0001-0020.png",
+        "bytes": 1639893,
+        "sha256": "96FAE69F5F25EA81E15CBA3009F8ADB79CA67FEAF6B2360AB9A90A20042C5016"
+      },
+      {
+        "path": "tmp/pdfs/fga-complete-single-aggregate-qa-20260908/contact-sheets/sheet-002-pages-0021-0040.png",
+        "bytes": 2294800,
+        "sha256": "3F30DAF967F12C64139173A2994E58FCD9E42E08456947F3BF780DD5473E8815"
+      },
+      {
+        "path": "tmp/pdfs/fga-complete-single-aggregate-qa-20260908/contact-sheets/sheet-003-pages-0041-0060.png",
+        "bytes": 2208731,
+        "sha256": "BBB4A820259E14BD5BA0109F170C47F573240B9213D478AD37936EBA1455C247"
+      },
+      {
+        "path": "tmp/pdfs/fga-complete-single-aggregate-qa-20260908/contact-sheets/sheet-004-pages-0061-0080.png",
+        "bytes": 2190725,
+        "sha256": "89B0FC43D5537E88A98B052AC6E983B6F22DC25496945857DB6D7D767304905E"
+      },
+      {
+        "path": "tmp/pdfs/fga-complete-single-aggregate-qa-20260908/contact-sheets/sheet-005-pages-0081-0100.png",
+        "bytes": 2309936,
+        "sha256": "1F2C256E43A70184B6BBEB7E2FD18F532FAE90C8FEEC2BD6BB51F513F7E4E5BB"
+      },
+      {
+        "path": "tmp/pdfs/fga-complete-single-aggregate-qa-20260908/contact-sheets/sheet-006-pages-0101-0120.png",
+        "bytes": 2280028,
+        "sha256": "6DF43245AC2CCE0FFDA93071D1BE61E794BA54E6C739E6617D7ACF3835A8A9E0"
+      },
+      {
+        "path": "tmp/pdfs/fga-complete-single-aggregate-qa-20260908/contact-sheets/sheet-007-pages-0121-0140.png",
+        "bytes": 2223868,
+        "sha256": "7B8AEAB1DBD22E8EE877B624AB6DDC7EFE9A5A1EF846196F19A95F18062AE626"
+      }
+    ],
+    "coverage": "All physical pages 1-140, exactly once as seven ordered twenty-page contact sheets; physical pages 6, 53, and 98 also inspected at original render resolution within the same pass.",
+    "result": "PASS_CONSISTENT_READABLE_COMPLETE_RENDER",
+    "observed": "Consistent margins; readable Korean and mathematics; complete chapter, errata, and commentary transitions; no black boxes, overlap, clipping, corrupted glyphs, or missing pages.",
+    "physical_page_6": {
+      "classification": "PASS_INTENTIONAL_TWO_SIDED_TRANSITION_VERSO",
+      "visible_content": "Roman page number vi and running header 목차 only.",
+      "basis": "Intentional frontmatter-to-mainmatter recto transition; not a clipped, corrupt, or missing page."
+    },
+    "physical_page_53": {
+      "classification": "PASS_VISIBLE_NON_CLIPPING",
+      "basis": "The warned long FGA190 paragraph remains within the visible page area and is readable."
+    },
+    "physical_page_98": {
+      "classification": "PASS_VISIBLE_NON_CLIPPING",
+      "basis": "The vertical-box warning vicinity is readable and complete with no overlap or clipping."
+    }
+  },
+  "policy": {
+    "small_section_qa_loops": 0,
+    "whole_reader_qa_passes": 1,
+    "whole_reader_qa_reruns": 0,
+    "render_cycles": 1,
+    "extraction_cycles": 1,
+    "disposition_used_existing_outputs_only": true,
+    "source_or_reader_bytes_changed_during_qa": false
+  },
+  "claim_boundary": "This receipt proves the specified deterministic build, geometry, extraction, font, navigation, full-render, and direct visual-disposition gates for the complete Korean FGA reader. It does not claim metaphysical or absolute perfection.",
+  "next": "Package and publish these exact bytes to a distinct public Korean FGA GitHub repository and Zenodo concept lineage, then perform anonymous public-byte readback."
+}

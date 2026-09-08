@@ -1,0 +1,178 @@
+{
+  "schema": "ag-ko-fga-final-component-integration-v1",
+  "recorded_at": "2026-09-08T14:57:57+02:00",
+  "owner_task": "019f757c-a43b-7ed0-b810-b8effdc5d904",
+  "scope": "Final Korean FGA component group: Expose236, e236, and 1962 commentary",
+  "authority": [
+    {
+      "path": "<workspace>/03_projects\\language_management\\english_germanic\\03_working_translations\\fga_r1\\fr\\236.tex",
+      "bytes": 66172,
+      "lf_lines": 1198,
+      "sha256": "BC1A3A96E07A368D674012825DBDFE7F3A4813C34A9F660610FF13ECAEA938F1"
+    },
+    {
+      "path": "<workspace>/03_projects\\language_management\\english_germanic\\03_working_translations\\fga_r1\\fr\\e236.tex",
+      "bytes": 10694,
+      "lf_lines": 222,
+      "sha256": "AF3E40E838746EE0649F9847D8A979C5D8F1F493791AE266AD9690E876665D57"
+    },
+    {
+      "path": "<workspace>/03_projects\\language_management\\english_germanic\\03_working_translations\\fga_r1\\fr\\com.tex",
+      "bytes": 3258,
+      "lf_lines": 65,
+      "sha256": "C89C738169C9BD165E2E225303859E32E3FAB0723575809EDE91CD0604B8C27D"
+    }
+  ],
+  "expose236_candidates_and_ledgers": [
+    {
+      "candidate": {
+        "path": "candidates/fga-236-lines1-374.tex",
+        "bytes": 21062,
+        "sha256": "0DCAA499645339B233628F22CC4FD7CAA994ADF09930EF95671A6B405D62531C"
+      },
+      "ledger": {
+        "path": "controls/FGA236_R001_CHOICES.jsonl",
+        "bytes": 30096,
+        "records": 9,
+        "sha256": "A7058AF41C43D1229930A22625274188C13E083B3F321A05A4D4E360F8D2084A"
+      }
+    },
+    {
+      "candidate": {
+        "path": "candidates/fga-236-lines375-511.tex",
+        "bytes": 7941,
+        "sha256": "0F20093938C108977494EA3BD38AA223422DD7C86268BFC83603B0AF24D520D1"
+      },
+      "ledger": {
+        "path": "controls/FGA236_R002_CHOICES.jsonl",
+        "bytes": 30502,
+        "records": 10,
+        "sha256": "E99FB1B67EA38BE9DAED9FB9C92672300A753F4778B4C2BEB0EF417967B01988"
+      }
+    },
+    {
+      "candidate": {
+        "path": "candidates/fga-236-lines512-794.tex",
+        "bytes": 15505,
+        "sha256": "65CA64AE4F7A15D1CD5E852E67F4CBA7BD8729B0887321218ECE90CC1B7BD4C5"
+      },
+      "ledger": {
+        "path": "controls/FGA236_R003_CHOICES.jsonl",
+        "bytes": 36505,
+        "records": 12,
+        "sha256": "19E2B417AB4757C05760C614A3665459F8BBD7EF1DA69256726C35158DC074C9"
+      }
+    },
+    {
+      "candidate": {
+        "path": "candidates/fga-236-lines795-951.tex",
+        "bytes": 8697,
+        "sha256": "0A9BC68DD7382ADB71ED60B1A8E354EE3F5262EB1FCFB634B47B4AA6967CAC94"
+      },
+      "ledger": {
+        "path": "controls/FGA236_R004_CHOICES.jsonl",
+        "bytes": 28331,
+        "records": 10,
+        "sha256": "AA7B3CD23BD1C925B6492B91323A1998794EA31269735D4EB673FEDBC20CFA8B"
+      }
+    },
+    {
+      "candidate": {
+        "path": "candidates/fga-236-lines952-1112.tex",
+        "bytes": 9283,
+        "sha256": "A56063739D2DBF09F6CA3AD695EBF0746403484F3A8B4DD0BC1F9199D5C4C34D"
+      },
+      "ledger": {
+        "path": "controls/FGA236_R005_CHOICES.jsonl",
+        "bytes": 24184,
+        "records": 9,
+        "sha256": "0537A07AD08209F7BB4788E6BDC5DE4EED91FAF926D42E572B1B556B239DA935"
+      }
+    },
+    {
+      "candidate": {
+        "path": "candidates/fga-236-lines1113-1198.tex",
+        "bytes": 6109,
+        "sha256": "4F411F6CCC75CACE819CC829CCEC1B83BA09555029A5393F2D3D5B4B8A0ED661"
+      },
+      "ledger": {
+        "path": "controls/FGA236_R006_CHOICES.jsonl",
+        "bytes": 21919,
+        "records": 8,
+        "sha256": "BF0881A9BB673669B089C84354AC08842798F551A20CA4FA2B1B6E2F27B8C1A3"
+      }
+    }
+  ],
+  "companion_candidates_and_ledgers": [
+    {
+      "candidate": {
+        "path": "candidates/fga-e236-complete.tex",
+        "bytes": 10648,
+        "sha256": "6903E1DC2FB1C258ACEA5D7146C59AD39C166854ED3079D49C8A6931F433AC59"
+      },
+      "ledger": {
+        "path": "controls/FGA_E236_CHOICES.jsonl",
+        "bytes": 25841,
+        "records": 9,
+        "sha256": "E372ACA2C369C49A045E7BA450AD4EFEE09CA4408F68E52454526537FFB372F5"
+      }
+    },
+    {
+      "candidate": {
+        "path": "candidates/fga-com-complete.tex",
+        "bytes": 3157,
+        "sha256": "2D0C7539AB96E3375BDCA03EE51F984870BCBD88EC661A4D737FEBD97B2CF2DA"
+      },
+      "ledger": {
+        "path": "controls/FGA_COM_CHOICES.jsonl",
+        "bytes": 19143,
+        "records": 7,
+        "sha256": "176870D4E77A094C336F5E6B3EF6B49FFB2B47325D7CC960090CF66F9E7D7C62"
+      }
+    }
+  ],
+  "targets": [
+    {
+      "path": "fga/236.tex",
+      "bytes": 68597,
+      "characters": 39328,
+      "lf_lines": 1120,
+      "sha256": "46CE145390E388437A25A8A9D5669313D88F73505F1D1217C8C5E3D75A987C1E",
+      "coverage": "complete source lines1-1198/EOF"
+    },
+    {
+      "path": "fga/e236.tex",
+      "bytes": 10648,
+      "characters": 5891,
+      "lf_lines": 205,
+      "sha256": "6903E1DC2FB1C258ACEA5D7146C59AD39C166854ED3079D49C8A6931F433AC59",
+      "coverage": "complete source EOF"
+    },
+    {
+      "path": "fga/com.tex",
+      "bytes": 3157,
+      "characters": 1847,
+      "lf_lines": 60,
+      "sha256": "2D0C7539AB96E3375BDCA03EE51F984870BCBD88EC661A4D737FEBD97B2CF2DA",
+      "coverage": "complete source EOF"
+    }
+  ],
+  "transaction": {
+    "expose236": "six ordered substantial candidates concatenated byte-for-byte once",
+    "e236": "complete candidate copied byte-for-byte once",
+    "commentary": "complete candidate copied byte-for-byte once",
+    "choice_ledger_json_parse": "PASS",
+    "exact_target_identity": "PASS"
+  },
+  "workflow": {
+    "content_qa_passes": 0,
+    "sectional_qa_loops": 0,
+    "repeated_qa_loops": 0,
+    "tex_builds": 0,
+    "renders": 0,
+    "extractions": 0,
+    "mechanical_component_integrations": 3
+  },
+  "corpus_translation_state": "ALL_CANONICAL_FGA_COMPONENTS_TRANSLATED",
+  "result": "PASS_FINAL_COMPONENT_INTEGRATIONS_ZERO_CONTENT_QA"
+}
