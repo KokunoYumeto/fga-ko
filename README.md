@@ -1,25 +1,17 @@
-# 대수기하학의 기초 — 한국어판
+# 대수기하학의 기초 — 한국어 누적 교정판
 
-[Reader PDF](https://github.com/KokunoYumeto/fga-ko/releases/download/fga-ko-2026-09-08-complete-r1/00_FGA_ko_CUMULATIVE_READER.pdf) · [Editable LaTeX](source/main.tex).
+[한국어 PDF 읽기](https://github.com/KokunoYumeto/fga-ko/releases/download/fga-ko-2026-10-24-r2/00_FGA_ko_CUMULATIVE_READER.pdf) · [단일 LaTeX 파일](https://github.com/KokunoYumeto/fga-ko/releases/download/fga-ko-2026-10-24-r2/01_FGA_ko_DIRECT.tex) · [편집 가능한 전체 소스](https://github.com/KokunoYumeto/fga-ko/releases/download/fga-ko-2026-10-24-r2/02_FGA_ko_EDITABLE_SOURCES.zip)
 
-알렉상드르 그로텐디크의 부르바키 강연 149, 182, 190, 195, 212, 221, 232, 236, 각 강연의 정오표와 1962년 논평. 한국어 번역과 교정은 AI가 수행했으며 출판자는 텍스트를 번역하지 않았습니다.
+알렉상드르 그로텐디크의 부르바키 강연 149, 182, 190, 195, 212, 221,
+232, 236과 각 강연의 정오표 및 보충, 1962년 논평을 수록한 한국어
+누적 교정판입니다. 한국어 번역과 교정, 편집 및 조판은 AI가 수행했으며
+출판자는 본문을 번역하지 않았습니다. 원문의 쪽 표지는 여백에 있습니다.
 
-## Sources and authorship
+프랑스어 원전이 일차 자료이며 영어판은 대조 자료입니다.
+인간 번역과 공헌의 출처는 [ATTRIBUTION.md](ATTRIBUTION.md),
+권리 고지는 [RIGHTS_AND_PROVENANCE.md](RIGHTS_AND_PROVENANCE.md),
+소스 컴파일 방법은 [BUILD.md](BUILD.md)를 참조하십시오.
 
-The original work is Alexandre Grothendieck’s *Fondements de la géométrie algébrique*: Bourbaki exposés 149, 182, 190, 195, 212, 221, 232 and 236, their errata, and the 1962 comments. [French originals](https://www.numdam.org/).
-
-The Korean translation is AI-translated; subsequent corrections, editing and typesetting are AI-produced. The publisher did not translate the text. The French text is the primary source; the maintained [English edition](https://github.com/KokunoYumeto/fga-en) is a secondary reference. That English reference contains wording shared with [Tim Hosgood’s human translation](https://github.com/thosgood/fga/tree/9976dd5f8e2ddcb388f0a07f3aa334f120d1019f), whose human authorship remains credited. This credits the English reference; it does not attribute the Korean translation to Tim Hosgood. The identified upstream version is 9976dd5f8e2ddcb388f0a07f3aa334f120d1019f. Attribution does not establish permission or endorsement.
-
-## Rights and availability
-
-Rights in the original works and in any protected contributions to these derivative translations and transcriptions remain with their respective rights holders. This project does not dedicate those works or contributions to the public domain or grant a licence over them. Existing third-party notices and any permissions already granted remain applicable.
-
-These editions are made available free of charge for non-commercial, purely educational purposes, on the presumption that the respective rights holders would not object to these translations and transcriptions being freely available alongside the French originals on [NUMDAM](https://www.numdam.org/journals/PMIHES/). This presumption is not a statement that permission has been obtained; free access to the originals does not itself grant permission to translate, adapt or republish them.
-
-If you hold rights in any material presented here and object to its availability, please [open a GitHub issue](https://github.com/KokunoYumeto/fga-ko/issues). The publisher will take down the affected material at the rights holder's request.
-
-
-## Historical identifiers
-
-- [Historical record](https://doi.org/10.5281/zenodo.22661828).
-- [Historical record](https://doi.org/10.5281/zenodo.22661829).
+이 판에 새 DOI가 부여된 것은 아닙니다. 이전 판은
+[2026년 9월의 판](https://doi.org/10.5281/zenodo.22661829)과
+[기존 기록](https://doi.org/10.5281/zenodo.22661828)에서 찾을 수 있습니다.
