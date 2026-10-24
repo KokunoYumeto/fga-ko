@@ -1,10 +1,5 @@
-# Purpose and use
+# 대수기하학의 기초 — 한국어판
 
-This is an independent, non-commercial, educational edition. It was made and paid for privately by its
-maintainer, so that people can read the works of Alexander Grothendieck and his collaborators in their own
-language. Nothing here is sold, and no revenue is collected. The aim is to turn this material into open teaching
-resources, including public lesson plans.
+알렉상드르 그로텐디크의 부르바키 강연 149, 182, 190, 195, 212, 221, 232, 236, 각 강연의 정오표와 1962년 논평. 한국어 번역과 교정은 AI가 수행했으며 출판자는 텍스트를 번역하지 않았습니다.
 
-The original works remain their authors' work, and the rights in them remain with their holders; this edition
-claims no ownership of the originals. The original texts are freely readable elsewhere, for example on Numdam and
-arXiv.
+[Reading and source files](README.md).

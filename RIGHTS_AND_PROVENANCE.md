@@ -1,31 +1,11 @@
-# Rights, provenance, and non-endorsement
+# Rights, sources and authorship
 
-## Work and source relationship
+The original work is Alexandre Grothendieck’s *Fondements de la géométrie algébrique*: Bourbaki exposés 149, 182, 190, 195, 212, 221, 232 and 236, their errata, and the 1962 comments. [French originals](https://www.numdam.org/).
 
-The historical work collected here is by Alexandre Grothendieck. The Korean
-edition follows the maintained French transcription in the canonical order of
-its eight exposés, their errata and supplements, and the 1962 commentary.
-The maintained English edition is a semantic witness only. It does not replace
-the French authority for mathematical content or document structure.
+The Korean translation is AI-translated; subsequent corrections, editing and typesetting are AI-produced. The publisher did not translate the text. The French text is the primary source; the maintained [English edition](https://github.com/KokunoYumeto/fga-en) is a secondary reference. That English reference contains wording shared with [Tim Hosgood’s human translation](https://github.com/thosgood/fga/tree/9976dd5f8e2ddcb388f0a07f3aa334f120d1019f), whose human authorship remains credited. This credits the English reference; it does not attribute the Korean translation to Tim Hosgood. The identified upstream version is 9976dd5f8e2ddcb388f0a07f3aa334f120d1019f. Attribution does not establish permission or endorsement.
 
-- Maintained French authority: https://github.com/KokunoYumeto/fga-fr
-- Maintained English semantic witness: https://github.com/KokunoYumeto/fga-en
+Rights in the original works and in any protected contributions to these derivative translations and transcriptions remain with their respective rights holders. This project does not dedicate those works or contributions to the public domain or grant a licence over them. Existing third-party notices and any permissions already granted remain applicable.
 
-Every released source and reader is bound to a SHA-256 manifest. Translation
-choices are recorded separately from the source so that terminology and
-editorial decisions remain inspectable and reversible.
+These editions are made available free of charge for non-commercial, purely educational purposes, on the presumption that the respective rights holders would not object to these translations and transcriptions being freely available alongside the French originals on [NUMDAM](https://www.numdam.org/journals/PMIHES/). This presumption is not a statement that permission has been obtained; free access to the originals does not itself grant permission to translate, adapt or republish them.
 
-## Rights
-
-No blanket public-domain or open-license claim is made for this collection.
-Each historical source, transcription, quotation, and cited work retains its
-own copyright status and license or permission terms. Distribution of the
-Korean edition does not replace or broaden those terms.
-
-## Non-endorsement
-
-This is an independent edition. It is not approved, sponsored, or endorsed by
-the historical author, Bourbaki, the original publishers, the institutions
-named in the work, or the authors and publishers of the consulted scholarship.
-References to those people and institutions identify provenance and evidence;
-they do not imply participation in the translation or typesetting project.
+If you hold rights in any material presented here and object to its availability, please [open a GitHub issue](https://github.com/KokunoYumeto/fga-ko/issues). The publisher will take down the affected material at the rights holder's request.
